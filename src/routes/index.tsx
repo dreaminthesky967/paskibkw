@@ -2,21 +2,21 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ChevronLeft, ChevronRight, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import slide1 from "@/assets/paskib-slide-1.jpg";
-import slide2 from "@/assets/paskib-slide-2.jpg";
-import slide3 from "@/assets/paskib-slide-3.jpg";
-import slide4 from "@/assets/paskib-slide-4.jpg";
-import slide5 from "@/assets/paskib-slide-5.jpg";
-import slide6 from "@/assets/paskib-slide-6.jpg";
-import slide7 from "@/assets/paskib-slide-7.jpg";
+import slide1 from "@/assets/paskib-slide-1.jpeg";
+import slide2 from "@/assets/paskib-slide-2.jpeg";
+import slide3 from "@/assets/paskib-slide-3.jpeg";
+import slide4 from "@/assets/paskib-slide-4.jpeg";
+import slide5 from "@/assets/paskib-slide-5.jpeg";
+import slide6 from "@/assets/paskib-slide-6.jpeg";
+import slide7 from "@/assets/paskib-slide-7.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Paskib KW — Satu Langkah, Satu Cerita" },
-      { name: "description", content: "Cerita, semangat, dan kenangan barisan Paskib KW dalam satu ruang digital." },
-      { property: "og:title", content: "Paskib KW — Satu Langkah, Satu Cerita" },
-      { property: "og:description", content: "Cerita, semangat, dan kenangan barisan Paskib KW dalam satu ruang digital." },
+      { title: "Paskib KW — from 21 to forever" },
+      { name: "description", content: "bubuy bulan" },
+      { property: "og:title", content: "Paskib KW — RORI adalah kunci" },
+      { property: "og:description", content: "Paskib kw." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -25,22 +25,28 @@ export const Route = createFileRoute("/")({
 });
 
 const slides = [
-  { image: slide1, label: "Satu langkah", title: "Bukan sekadar barisan." },
-  { image: slide2, label: "Satu keluarga", title: "Tumbuh lewat tawa." },
-  { image: slide3, label: "Satu irama", title: "Bergerak tanpa ragu." },
-  { image: slide4, label: "Satu amanah", title: "Merah putih di hati." },
-  { image: slide5, label: "Satu tujuan", title: "Berdiri dengan bangga." },
-  { image: slide6, label: "Satu jejak", title: "Disiplin dalam langkah." },
-  { image: slide7, label: "Satu cerita", title: "Kita, sampai nanti." },
+  { image: slide1, label: "Satu langkah", title: "aswad kiper." },
+  { image: slide2, label: "Satu keluarga", title: "kantin merah." },
+  { image: slide3, label: "Satu irama", title: "forever" },
+  { image: slide4, label: "Satu amanah", title: "kakak dulu deckk" },
+  { image: slide5, label: "Satu tujuan", title: "Kantin merah or TU" },
+  { image: slide6, label: "Satu jejak", title: "anak rajin." },
+  { image: slide7, label: "Satu cerita", title: "camp?" },
 ];
 
 const quotes = [
-  { name: "Nadia", role: "Pemimpin Pasukan", initials: "NA", quote: "Lelahnya latihan akan hilang. Bangganya akan tinggal lebih lama dari yang kita kira." },
-  { name: "Raka", role: "Pengibar Bendera", initials: "RA", quote: "Kalau langkah kita sama, jalan sesulit apa pun terasa mungkin untuk dilewati." },
-  { name: "Salsa", role: "Pembawa Baki", initials: "SA", quote: "Jangan takut salah langkah. Dari sanalah kita belajar berdiri lebih tegak." },
-  { name: "Dimas", role: "Komandan Pleton", initials: "DI", quote: "Disiplin bukan hukuman. Ia adalah cara kita menghargai mimpi dan teman seperjuangan." },
-  { name: "Alya", role: "Anggota Pasukan", initials: "AL", quote: "Kita datang sebagai orang asing, lalu pulang membawa keluarga baru." },
-  { name: "Bagas", role: "Pelatih", initials: "BA", quote: "Hebat bukan tentang siapa paling depan, tetapi siapa yang tetap menjaga barisan." },
+  { name: "Risky Siburian", role: "@riski_siburian", initials: "NA", quote: "Proses Memang tidak Mengkhianati hasil, tetapi hasil lah yang mengkhianati proses." },
+  { name: "Suhadi", role: "@hadi_enthefendens", initials: "SU", quote: "Aku melangkahkan kaki bersama dengan harapan. Dan aku menunggu dalam sepi, meski ditemani sepi." },
+  { name: "Alfa Rodi", role: "@alfarodi28", initials: "AR", quote: "Bermimpilah setiggi langit sampai kamu nabrak satelit." },
+  { name: "Rizky Saputra", role: "@rzkyyy_learning", initials: "RS", quote: "Balas dendam terbaik adalah dengan menjadikan dirimu menjadi lebih baik." },
+  { name: "Randi Ardiansah", role: "@randi.ardiyansyah.351", initials: "RA", quote: "cantik bukan milik sitampan, si pemberani ataupun si kaya. Karena cantik itu milik dia si dia yang telah dahulu singgah dihatinya. jadi tetaplah berusaha meskipun sia-sia." },
+  { name: "Steven", role: "@stvnnnnn11", initials: "ST", quote: "keberhasilan bukanlah milik mereka yang pintar. keberhasilan ialah milik mereka yang berusaha." },
+  { name: "Benie Prawidana", role: "@benie.prawidana", initials: "BP", quote: "tantangan adalah apa yang membuat hidup menarik dan mengatasinya adalah apa yang membuat hidup bermakna." },
+  { name: "Irpan", role: "@irfan.sahoda", initials: "Ir", quote: "Semakin Keras kamu bekerja untuk sesuatu, Semakin besar perasaanmu saat mencapainya." },
+  { name: "Ahmad Aswad", role: "@aswat3586", initials: "AA", quote: "TIdak ada Istilah gagal dalam hidup, yang ada hanya sukses dan belum berhasil." },
+  { name: "Ki Agus Rizki Parandani", role: "@kgs_plmbni", initials: "kgs", quote: "Surga itu IBU." },
+  { name: "Hardi Setiawan", role: "@", initials: "HS", quote: "Kapan kapan bae yo." },
+  { name: "Ridho Rizky Saputra", role: "@", initials: "RR", quote: "Begitulah Kira kira." }
 ];
 
 function Index() {
@@ -60,13 +66,13 @@ function Index() {
   };
 
   return (
-    <main className="overflow-hidden bg-background text-foreground">
+    <main className="overflow-x-hidden bg-background text-foreground">
       <header className="fixed inset-x-0 top-0 z-50 mx-auto flex h-20 max-w-[1500px] items-center justify-between px-5 text-hero-foreground sm:px-10">
         <button className="brand-mark" onClick={() => goTo("beranda")} aria-label="Kembali ke beranda">PK<span>•</span>W</button>
         <nav className="hidden items-center gap-9 rounded-full border border-hero-foreground/20 bg-hero/20 px-7 py-3 text-sm font-medium backdrop-blur-xl md:flex" aria-label="Navigasi utama">
           <button onClick={() => goTo("beranda")}>Beranda</button>
           <button onClick={() => goTo("cerita")}>Cerita</button>
-          <button onClick={() => goTo("suara")}>Suara Kita</button>
+          <button onClick={() => goTo("suara")}>Motivasi</button>
           <button onClick={() => goTo("galeri")}>Galeri</button>
         </nav>
         <button className="grid size-11 place-items-center rounded-full border border-hero-foreground/25 bg-hero/20 backdrop-blur-xl md:hidden" onClick={() => setMenuOpen(!menuOpen)} aria-label="Buka menu">
@@ -83,10 +89,10 @@ function Index() {
         ))}
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative z-10 mx-auto flex h-full max-w-[1500px] flex-col justify-end px-5 pb-16 sm:px-10 sm:pb-20 lg:px-16">
-          <p className="mb-5 text-xs font-semibold uppercase tracking-[0.28em] text-hero-foreground/75">Paskib KW • Angkatan 2026</p>
+          <p className="mb-5 text-xs font-semibold uppercase tracking-[0.28em] text-hero-foreground/75">Paskib KW -- since 2021-</p>
           <h1 className="max-w-5xl text-5xl font-semibold leading-[0.94] sm:text-7xl lg:text-[7.6rem]">{activeSlide?.title}</h1>
           <div className="mt-9 flex items-end justify-between gap-6">
-            <p className="max-w-md text-base leading-relaxed text-hero-foreground/75 sm:text-lg">Tujuh potret. Ribuan cerita. Tentang langkah yang dipaksa kompak, lalu hati yang ikut menjadi dekat.</p>
+            <p className="max-w-md text-base leading-relaxed text-hero-foreground/75 sm:text-lg">RORI adalah kunci.</p>
             <button onClick={() => goTo("cerita")} className="hidden size-14 place-items-center rounded-full border border-hero-foreground/40 transition-transform hover:translate-y-1 sm:grid" aria-label="Lihat cerita"><ArrowDown /></button>
           </div>
           <div className="mt-10 flex items-center gap-3">
@@ -99,10 +105,10 @@ function Index() {
 
       <section id="cerita" className="relative min-h-[820px] bg-chat px-5 py-28 text-chat-foreground sm:px-10 lg:py-36">
         <div className="mx-auto max-w-6xl text-center">
-          <p className="section-kicker">Yang selalu kami bilang</p>
-          <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold leading-tight sm:text-6xl">Kalimat kecil yang hidup di tengah barisan.</h2>
+          <p className="section-kicker">kata gweh sih</p>
+          <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold leading-tight sm:text-6xl">harian</h2>
           <div className="relative mx-auto mt-20 h-[460px] max-w-5xl sm:h-[500px]">
-            {["Siap, gerak!", "Jangan kendor.", "Ulang dari awal!", "Satu komando.", "Panas? Biasa.", "Kita bisa!", "Kiri... kiri...", "Fokus, kawan."].map((text, index) => (
+            {["Siap, gerak!", "Kantin Merah", "TU?", "Rori", "tragedi 3 februari.", "Tragedi 16 february", "Tunggu aku 5 tahun lagi",  "Anginnn", "Bsok tugas"].map((text, index) => (
               <div key={text} className={`chat-bubble bubble-${index + 1}`}>{text}</div>
             ))}
             <div className="absolute left-1/2 top-1/2 grid size-28 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-chat-accent text-center text-sm font-bold uppercase tracking-widest text-chat-accent-foreground shadow-xl sm:size-36">Paskib<br/>KW</div>
@@ -112,15 +118,15 @@ function Index() {
 
       <section id="suara" className="bg-quote px-5 py-28 text-quote-foreground sm:px-10 lg:py-36">
         <div className="mx-auto max-w-6xl">
-          <p className="section-kicker text-quote-muted">Suara dari barisan</p>
+          <p className="section-kicker text-quote-muted">bendera siap</p>
           <div className="mt-5 flex flex-col justify-between gap-5 md:flex-row md:items-end">
-            <h2 className="max-w-3xl text-4xl font-semibold leading-tight sm:text-6xl">Kata-kata yang kami bawa pulang.</h2>
+            <h2 className="max-w-3xl text-4xl font-semibold leading-tight sm:text-6xl">motivasi dari kami .</h2>
             <p className="max-w-xs text-sm leading-relaxed text-quote-muted">Ketuk satu nama untuk membuka pesannya.</p>
           </div>
           <div className="quote-shelf" role="tablist" aria-label="Kutipan dari barisan">
             {quotes.map((item, index) => {
               const active = openQuote === index;
-              return <button key={item.name} onClick={() => setOpenQuote(index)} className={`quote-book ${active ? "quote-book-active" : ""}`} role="tab" aria-selected={active} aria-label={`${item.name}, ${item.role}`}>
+              return <button key={item.name} type="button" onClick={() => setOpenQuote(index)} className={`quote-book ${active ? "quote-book-active" : ""}`} role="tab" aria-selected={active} aria-label={`${item.name}, ${item.role}`}>
                 <span className="quote-spine">
                   <span className="quote-avatar">{item.initials}</span>
                   <span className="quote-spine-name">{item.name}</span>
